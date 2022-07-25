@@ -1,0 +1,8 @@
+/* add the class for ng invalid 
+not(form) make sure the selector does not select the form   
+we only want to show the the red border after the user has a change to type in a value so we use 
+.ngtouched */
+
+.ng-invalid:not(form).ng-touched{
+    border : 1px solid red; 
+}
